@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    border: 0%;
+}
+body{
+    font-family:sans-serif;
+    height: 80vh;
+}
+.header{
+    background-color: red;
+    color: white;
+    font-size: 35px;
+    padding: 5px;
+    font-weight: 600;
+}
+.movies{
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center;
+    
+    padding: 30px;
+}
+.cards{
+    display: flex;
+    /* border: 2px solid red; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    /* background-color: rgb(219, 240, 233); */
+    border-radius: 5px;
+    gap: 10px;
+    width: 300px;
+}
+.images{
+    background-color: aqua;
+    width:200px;
+    height: 300px;
+    background-image: url(../images/indian.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.img1{
+    background-image: url(../images/indian.jpeg);
+}
+
+.img2{
+    background-image: url(../images/raya.jpeg);
+}
+
+.img3{
+    background-image: url(../images/thangalan.jpeg);
+}
+
+.img4{
+    background-image: url(../images/demont.jpeg);
+}
+
+.img5{
+    background-image: url(../images/jailer.jpeg);
+}
+.subject{
+    font-size: 20px;
+    font-weight: 600;
+    /* background-color: aquamarine; */
+    align-items: center;
+    justify-items: center;
+    border-color: 2px solid blue;
+}
+
+.buttons button{
+    background-color: rgb(234, 47, 47);
+    border-color: red;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1rem;
+
+}
+button :hover{
+    background-color: rgb(247, 5, 5);
+    cursor: pointer;
+}
+
+.widthy{
+    background-color:#303644;
+    width: auto;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-image: url(../images/widthy.jpeg);
+    padding: 10px;
+    border-radius: 40px;
+    margin: 40px;
+}
+
